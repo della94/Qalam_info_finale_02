@@ -1,0 +1,554 @@
+/* Ceci concerne tout l'entete a savoit le logo de Qalam Info, lurgence covide et la baniere de pub */
+
+.Entete{
+    background-color:rgb(255, 255, 255);
+    width: 100%;
+}
+
+.Logo{
+    width: 12%;
+    height: 15%;
+}
+.Covid{
+    position: absolute;
+    left: 350px;
+    top: 0.50rem;
+    height: 10.5em;
+}
+.Pub{
+	position: absolute;
+    bottom: 481px;
+    left: 757.5px;
+    background-color: #FF0000;
+    width: 580px;
+    height: 9.5em;
+}
+.icone_pub{
+    height: 45%;
+}
+
+/* Ceci concerne toute la barre de navigation*/
+
+.dropdownmenu{
+	display: flex;
+}
+.dropdownmenu ul, .dropdownmenu li {
+	margin: 0;
+	padding: 0;
+}
+.dropdownmenu ul {
+	background: red;
+	list-style: none;
+	width: 100%;
+}
+.dropdownmenu li {
+	float: left;
+	position: relative;
+	width:auto;
+}
+.dropdownmenu a {
+	background: red;
+	color: #ffffff;
+	display: block;
+	font: bold 12px/20px sans-serif;
+	padding: 15px;
+	text-align: center;
+	text-decoration: none;
+	font-size: x-large
+}
+#submenu {
+	left: 0;
+	opacity: 0;
+	position: absolute;
+	top: 35px;
+	visibility: hidden;
+	z-index: 1;
+}
+li:hover ul#submenu {
+	opacity: 1;
+	top: 40px;
+	visibility: visible;
+}
+
+#submenu li {
+	float: none;
+	width: 100%;
+}
+#submenu a:hover {
+	background: rgb(114, 111, 111);
+}
+.icone_loupe{
+	position: relative;
+	left: 1px;
+	top: 15px;
+	height: 45px;
+}
+.icone_doigt_de_direction{
+	position: relative;
+	top: 30px;
+	left: 170px;
+	height: 40px;
+}
+.icone_de_connection{
+	position: relative;
+	bottom: 3px;
+	left: 18rem;
+	height: 45px;
+}
+.connectez_vous{
+	position:absolute;
+	top: 7em;
+	right: 18rem;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	font: bold 12px/20px sans-serif;
+	font-size: 22px;
+  }
+  .changer_de_langue{
+	position: relative;
+	left: 19rem;
+	color: white;
+	font-family: 'Alice', sans-serif;
+	font-size: 20px;
+	word-spacing: 1rem;
+  }
+/* Ceci concerne les pointiers verticalement superposé*/
+.container_1{
+	position: relative;
+	bottom: 4.2rem;
+	left: 52rem;
+	height: 8vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	border-spacing: 5px 16px;
+  }
+.container_2{
+	position: relative;
+	bottom: 7.5rem;
+	left: 71rem;
+	height: 8vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	border-spacing: 5px 1rem;
+  }
+  .box_noir{
+	background-color: black;
+	width: 1vh;
+	height: 1vh;
+	border: 0.05em solid white;
+	border-bottom:solid white 1px;
+  }
+ /* Ceci concerne la page d'acceuil*/
+  /* Ceci concerne la presentation de Qalam info et la video de reportage*/
+  .section_presentation_et_video{
+	display: inline-flex;
+  }
+  .la_div_de_la_video{
+	position: relative;
+	left: 70px;
+	top: 50px;
+	width: 100%;
+  }
+  .img_reportage{
+	width: 80%;
+	height: 70%;
+  }
+.la_div_de_qui_somme_nous{
+	background-color: red;
+	text-align: center;
+	width: 100%;
+}
+.qui_sommes_nous{
+	position: relative;
+	top: 30px;
+	color: white;
+	font-family: 'Lato';
+	font-size: 50px;
+	text-decoration: underline;
+}
+.paragraphe_de_qui_sommes_nous{
+	color: white;
+	font-family: 'Lato';
+	font-size: 50px;
+}
+.la_div_du_bouton_savoir_plus{
+	position: relative;
+	left: 150px;
+	bottom: 35px;
+	text-align: center;
+	border-radius: 50px;
+	width: 50%;
+	height: 15%;
+	background-color: white;
+}
+.savoir_plus{
+	color: black;
+	text-decoration: none;
+	position: relative;
+	top: 25px;
+	font-size: 30px;
+}
+.img_du_bouton_play{
+	position: relative;
+	left: 200px;
+	bottom: 270px;
+	width: 20%;
+	height: 20%;
+}
+.la_div_de_la_rubrique_du_jour{
+	position: relative;
+	left: 120px;
+	bottom: 140px;
+	text-align: center;
+	border-radius: 50px;
+	width: 50%;
+	height: 15%;
+	background-color: red;
+}
+.rubrique_du_jour{
+	position: relative;
+	top: 25px;
+	font-size: 30px;
+	text-decoration: none;
+	color: white;
+}
+/* Ceci concerne l'image des journaux au niveau de la page d'acceuil*/
+.la_div_des_journaux{
+	position: relative;
+	top: 50px;
+	width: 100%;
+	height: 2%;
+}
+.img_journaux{
+	width: 100%;
+	height: 500px;
+}
+  /* Ceci concerne la page d'equipe*/
+  /* Ceci concerne les membres de l'equipe*/
+  .la_grande_div_equipe{
+	display: inline-block;
+  }
+  .equipe{
+	display: inline-block;
+	width:100%;
+	height: 50%;
+	background-image: url("image/globe.png");
+	height: 700px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+  }
+  /* Ceci concerne les les membres de l'equipe_1*/
+  .equipe_1{
+	display: inline-flex;
+	width:75%;
+	height: 50%;
+  }
+/* Ceci concerne le redacteur en chef*/
+  .div_du_redacteur_en_chef{
+	position:relative;
+	left: 70px;
+	top: 10px;
+  }
+
+  .img_du_redacteur_en_chef{
+	width: 90%;
+	height: 70%;
+  }
+
+  .titre_du_redacteur_en_chef{
+	position:relative;
+	left: 40px;
+	bottom: 35px;
+	text-decoration: underline;
+	font-size: xx-large;
+  }
+/* Ceci concerne le cameraman*/
+  .div_du_cameraman{
+	position:relative;
+	left: 470px;
+	top: 10px;
+  }
+
+  .img_du_cameraman{
+	width:90%;
+	height:70%;
+  }
+
+  .titre_du_cameraman{
+	position:relative;
+	left: 90px;
+	bottom: 35px;
+	text-decoration: underline;
+	font-size: xx-large;
+  }
+   /* Ceci concerne les les membres de l'equipe_2*/
+   .equipe_2{
+	display: inline-flex;
+	width:100%;
+	height: 50%;
+  }
+/* Ceci concerne le directeur*/
+  .div_du_directeur{
+	position:relative;
+	left: 100px;
+	bottom: 50px;
+  }
+
+  .img_du_directeur{
+	width: 100%;
+	height:100%;
+  }
+
+  .titre_du_directeur{
+	position:relative;
+	left: 20px;
+	bottom: 20px;
+	text-decoration: underline;
+	font-size:  30px;
+  }
+/* Ceci concerne la journaliste*/
+  .div_de_la_journaliste{
+	position:relative;
+	left: 610px;
+	bottom: 50px;
+  }
+
+  .img_de_la_journaliste{
+	width:100%;
+	height:100%;
+  }
+
+  .titre_de_la_journaliste{
+	position:relative;
+	left: 30px;
+	bottom: 20px;
+	text-decoration: underline;
+	font-size: xx-large;
+  }
+/* Ceci concerne la section du mot du directeur*/
+  .le_mot_du_directeur{
+	position: relative;
+	top: 50px;
+	left: 90px;
+	width:100%;
+	height: 100%;
+	background-color: #FF0000;
+	color: white;
+	text-align: center;
+
+  }
+  .le_titre_du_mot_du_directeur{
+	text-decoration: underline;
+  }
+  .texte_du_directeur{
+	position: relative;
+	bottom: 10px;
+	font-size: 20px;
+  }
+  /* Ceci concerne la section du mot du directeur*/
+
+   /* Ceci concerne la baniere d'annonce passante*/
+
+ footer {
+    position: fixed;
+    bottom: 0;
+}
+
+@media (max-height:800px) {
+    footer {
+        position: static;
+    }
+    header {
+        padding-top: 40px;
+    }
+}
+
+.footer-distributed {
+    background-color: #2d2a30;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 50px 50px 60px 50px;
+    margin-top: 80px;
+}
+
+.footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+    width: 30%;
+}
+
+.footer-distributed h1 {
+    color: #ffffff;
+    text-decoration: underline;   
+}
+
+
+
+/* Footer links */
+
+.footer-distributed .footer-links {
+    color: #ffffff;
+    margin: 20px 0 20px;
+}
+
+.footer-distributed .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer_links{
+    color: white;
+    text-decoration: underline
+}
+
+.footer-distributed .footer-company-name {
+    color: #8f9296;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center {
+    width: 35%;
+}
+
+.footer-distributed .footer-center i {
+    background-color: black;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+    color: #e0ac1c;
+    text-decoration: none;
+    ;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right {
+    width: 30%;
+}
+
+.footer-distributed .footer-company-about {
+    line-height: 20px;
+    color: #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+    display: block;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-decoration: underline
+}
+
+.footer-distributed .footer-icons {
+    margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #33383b;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+.footer-distributed .footer-icons a:hover {
+    background-color: #3F71EA;
+}
+
+.footer-links a:hover {
+    color: #3F71EA;
+    text-decoration: underline;
+}
+
+@media (max-width: 880px) {
+    .footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .footer-distributed .footer-center i {
+        margin-left: 0;
+    }
+} 
+h4{
+    color: #ffffff;
+    text-decoration: underline;
+} 
+.sabonner{
+    background-color: #eb0505;
+    position: relative;
+    top: 15px;
+}     
+   .della{
+       color: #ffffff;
+       text-decoration: underline;
+   } 
+   .devoir{
+       color: #FF0000
+   }
+   .footer-right{
+       text-align: end;
+       text-decoration: #f8f1f1
+
+   }    
+ .div_mail{
+     position: relative;
+     top: 5px;
+ }
